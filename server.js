@@ -14,7 +14,7 @@ app.use('/api/users', userRoutes);
 app.use('/api/tasks', taskRoutes);
 
 app.get('/', (req, res) => {
-    res.send('Task Management API is running!');
+    res.send('Welcome to Simple Task Management App!');
 });
 
 app.listen(port, () => {
